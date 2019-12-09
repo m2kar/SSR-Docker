@@ -4,11 +4,10 @@
     "local_address": "127.0.0.1",
     "local_port": 1080,
     "port_password": {
-        "8989": {
+        "443": {
             "method": "aes-256-cfb",
-            "password": "p@ssw0rd"
-        },
-        "8686": "p@ssw0rd"
+            "password": "ctgfw"
+        }
     },
     "timeout": 300,
     "method": "chacha20",
@@ -16,7 +15,7 @@
     "protocol_param": "",
     "obfs": "tls1.2_ticket_auth",
     "obfs_param": "",
-    "redirect": "",
+    "redirect": "*:443#baidu.com:443",
     "dns_ipv6": false,
     "fast_open": false,
     "workers": 1
