@@ -80,7 +80,7 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 
 ## 部署SSR-Docker
 ```
-$ git clone https://github.com/winterssy/SSR-Docker.git ~/SSR-Docker
+$ git clone https://github.com/m2kar/SSR-Docker.git ~/SSR-Docker
 $ cd ~/SSR-Docker
 $ docker-compose up -d
 ```
